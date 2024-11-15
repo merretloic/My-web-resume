@@ -4,13 +4,6 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-indigo-600">
-      <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-6 justify-center">
-        <img
-          src="/FullSizeRender.jpg" 
-          alt="My Profile"
-          className="w-full h-full object-cover"
-        />
-      </div>
       <motion.h1
         className="text-5xl md:text-7xl font-bold mb-4"
         initial={{ opacity: 0, y: -50 }}
