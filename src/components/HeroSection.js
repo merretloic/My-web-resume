@@ -6,8 +6,7 @@ const HeroSection = () => {
     <section className="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-indigo-600">
       <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden mb-6 justify-center">
         <img
-          
-          src="/FullSizeRender.jpg" // Remplacez par le chemin de votre photo
+          src="/FullSizeRender.jpg" 
           alt="My Profile"
           className="w-full h-full object-cover"
         />
